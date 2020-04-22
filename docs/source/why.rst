@@ -47,7 +47,7 @@ Scalability
 echopype is written to use as much as functionality of `xarray`_ as possible.
 xarray is a powerful module that let you work with multi-dimensional labeled data
 set the same way as in `pandas`_.
-Under the hood, xarray uses `dask`_ to support parallel computations and
+Under the hood, `dask`_ uses xarray to support parallel computations and
 streaming computation on data sets that don't fit into memory.
 Building on xarray and dask, the goal of echopype to make sonar data analysis
 efficient and scalable through distributed computing through either local clusters
